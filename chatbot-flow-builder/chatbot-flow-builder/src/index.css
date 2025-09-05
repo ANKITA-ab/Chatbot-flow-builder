@@ -1,0 +1,74 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.react-flow {
+  width: 100%;
+  height: 100%;
+}
+
+/* Save Button */
+.save-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* Nodes Panel */
+.dock {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 180px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  z-index: 10;
+}
+
+.dock-header {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.node-card {
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+/* Node style */
+.text-node {
+  min-width: 160px;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+  background: white;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.text-node-header {
+  font-weight: bold;
+  font-size: 13px;
+  color: #475569;
+  margin-bottom: 4px;
+}
+
+.text-node-body {
+  font-size: 14px;
+}
